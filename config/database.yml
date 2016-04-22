@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: d7mnuca0mn7eeg
-  username: wipznltvdvycyx
-  password: z7Z_geiA8Htdc6mMGdWS-ci7Jr
+  database: camcms_production
+  username: camcms
+  password: <%= ENV['CAMCMS_DATABASE_PASSWORD'] %>
